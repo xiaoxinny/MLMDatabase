@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.6"
+  },
+  "scripts": {
+    "lint:frontend": "npm --prefix frontend run lint",
+    "lint:frontend:check": "npm --prefix frontend run lint:check",
+    "format:frontend": "npm --prefix frontend run format",
+    "format:frontend:check": "npm --prefix frontend run format:check",
+    "prepare": "husky"
+  }
+}

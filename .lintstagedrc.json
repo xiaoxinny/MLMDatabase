@@ -1,0 +1,8 @@
+{
+    "frontend/**/*.{ts,tsx,js,jsx,cjs,yml,yaml}": [
+        "npm run format:frontend",
+        "npm run format:frontend:check",
+        "npm run lint:frontend",
+        "npm run lint:frontend:check"
+    ]
+}

@@ -7,7 +7,5 @@ module.exports = {
   jsxSingleQuote: true,
   tabWidth: 2,
   trailingComma: 'none',
-  plugins: [
-    'prettier-plugin-packagejson'
-  ]
+  plugins: ['prettier-plugin-packagejson']
 };
