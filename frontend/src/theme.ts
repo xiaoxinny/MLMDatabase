@@ -34,7 +34,7 @@ export const HEADER_FONT = "'Manrope Variable', sans-serif";
 export const BODY_FONT = "'Manrope Variable', sans-serif";
 export const SUBHEADER_FONT = "'Manrope Variable', sans-serif";
 export const SUBTITLE_FONT = "'Manrope Variable', sans-serif";
-export const MONOSPACE_FONT = "'Manrope Variable', sans-serif";
+export const MONOSPACE_FONT = "'JetBrains Mono Variable', monospace";
 
 export const BODY_FONT_WEIGHT = 400;
 export const HEADER_FONT_WEIGHT = 700;

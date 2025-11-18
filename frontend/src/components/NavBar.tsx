@@ -115,7 +115,6 @@ export const NavBar = () => {
             mr: 2,
             display: { xs: 'flex', md: 'none' },
             flexGrow: 1,
-            fontFamily: 'monospace',
             fontWeight: 700,
             color: 'inherit',
             textDecoration: 'none'
