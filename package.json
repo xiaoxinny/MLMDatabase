@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.6"
+    "lint-staged": "^17.6.0"
   },
   "scripts": {
     "lint:frontend": "npm --prefix frontend run lint",
