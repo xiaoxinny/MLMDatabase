@@ -121,7 +121,7 @@ export const SearchCard = () => {
           </ListItem>
         </List>
         {/* Input field for username search */}
-        <Typography variant='body2' gutterBottom paddingLeft={1}>
+        <Typography variant='body2' gutterBottom sx={{ paddingLeft: 1 }}>
           Full Name
         </Typography>
         <TextField
@@ -142,7 +142,7 @@ export const SearchCard = () => {
           type='search'
         />
         {/* Input field to supplement LinkedIn URL */}
-        <Typography variant='body2' gutterBottom paddingLeft={1}>
+        <Typography variant='body2' gutterBottom sx={{ paddingLeft: 1 }}>
           LinkedIn Profile URL (Optional)
         </Typography>
         <TextField
@@ -208,7 +208,7 @@ export const SearchCard = () => {
           </ListItem>
         </List>
         {/* Input field for copany search */}
-        <Typography variant='body2' gutterBottom paddingLeft={1}>
+        <Typography variant='body2' gutterBottom sx={{ paddingLeft: 1 }}>
           Company Name
         </Typography>
         <TextField

@@ -198,10 +198,10 @@ export const getTheme = (mode: PaletteMode): ThemeOptions => ({
           borderRadius: 8,
           paddingLeft: 16,
           paddingRight: 16,
-          transition: '0.2s'
-        },
-        containedPrimary: {
-          color: '#fff'
+          transition: '0.2s',
+          '&.MuiButton-containedPrimary': {
+            color: '#fff'
+          }
         }
       }
     },

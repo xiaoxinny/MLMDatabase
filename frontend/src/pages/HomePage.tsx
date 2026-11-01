@@ -10,14 +10,14 @@ export const HomePage = () => {
   return (
     <PageContainer>
       <Stack
-        flexGrow={1}
         sx={{
+          flexGrow: 1,
           justifyContent: 'center',
           alignItems: 'center'
         }}
       >
         {/* For the title and subtitle */}
-        <Stack direction='column' spacing={2} mb={4} mt={4}>
+        <Stack direction='column' spacing={2} sx={{ mb: 4, mt: 4 }}>
           <Typography variant='h1'>Welcome to the MLM Database</Typography>
           <Typography variant='subtitle1' align='center'>
             Explore our comprehensive database of MLM companies and their

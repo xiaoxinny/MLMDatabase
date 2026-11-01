@@ -3,7 +3,7 @@ import { type ReactNode } from 'react';
 
 export const ResultPane = ({ children }: { children: ReactNode }) => {
   return (
-    <Stack direction='column' p={2}>
+    <Stack direction='column' sx={{ p: 2 }}>
       {children}
     </Stack>
   );

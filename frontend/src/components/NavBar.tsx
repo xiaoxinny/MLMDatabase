@@ -33,12 +33,12 @@ export const NavBar = () => {
       }}
     >
       <Box
-        flexGrow={1}
-        height='0.2rem'
         sx={{
+          flexGrow: 1,
+          height: '0.2rem',
+          width: '100%',
           background: 'linear-gradient(90deg, #0e0184ff, #296fe9ff)'
         }}
-        width='100%'
       ></Box>
       <Toolbar disableGutters>
         {/* This is the logo image */}
